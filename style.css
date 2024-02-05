@@ -7,8 +7,9 @@
 body{
     display: flex;
     flex-direction: column;
-    width:auto;
-    height: max-content;
+    justify-content: space-between;
+    gap: 10px;
+
 }
 
 
@@ -20,7 +21,7 @@ body{
     background-color: #1f2937;
     height: 350px;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 10px 150px;
     overflow: hidden;
 
 }
@@ -33,6 +34,10 @@ body{
     color: #f9faf8;
     
     
+}
+.header img{
+    width: 3%;
+    height: auto;
 }
 
 ul{
@@ -66,6 +71,10 @@ a{
     align-self: center;
     width: 700px;
     
+    
+}
+.title p{
+    font-size: 22px;
 }
 
 .title h1{
@@ -116,13 +125,15 @@ a{
 }
 .items{
     display: flex;
-    gap: 70px;
+    gap: 120px;
     text-align: center;
     
     
 }
 .item{
-width: 150px;
+width: 280px;
+font-size: 22px;
+font-family: 'Roboto';
 
 }
 
@@ -196,11 +207,12 @@ width: 150px;
 .footer{
     flex: 1;
     display: flex;
-    background-color: #000;
+    background-color: #1f2937;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding: 30px 10px;
+    margin-bottom: 0;
     
     
     
